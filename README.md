@@ -1,22 +1,21 @@
-##C++ Application to Print all Anagrams for a
-##Given word using Stacks and Queues
+## C++ Application to Print all Anagrams for a given word using Stacks and Queues
 
-####Submitted as part of Data Structures Assignnment 3
+#### Submitted as part of Data Structures Assignnment 3
 ![Logo of the college](http://www.technomelange.in/images/MITManipalEducation.png)
 
-##1 Readme :
+## 1 Readme :
 
-###1.1 Problem Statement :
+### 1.1 Problem Statement :
 	To generate all N! permutations of a given word with unique Characters the using
 	algorithm given in the Question with the help of Stacks and Queues.
 
-###1.2 Execution :
+### 1.2 Execution :
 	This C++ Program can be Executed by compiling it with any modern C++ compiler
 	like gcc , clang or mingw. CodeBlocks uses mingw.
 	This Problem has been solved using one Stack and Queue , the Source has been
 	included in the Anagram.cpp File.
 
-###1.3 Input :
+### 1.3 Input :
 	The First Input is the length of the word to be entered by the User.
 	The length should be an integer greater than or equal to 1.
 	If length entered is greater than or equal to 10 then the Execution time might be in
@@ -27,7 +26,7 @@
 	Lexicographical order .
 	The Program also Prints the number of words printed which is always N!.
 
-###1.4 Working:
+### 1.4 Working:
 	This Program has two classes the stack and the queue class. The Stack class has
 	the following Function :
 	void push (char a) -> This Function Pushes a value onto the Stack.
